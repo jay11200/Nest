@@ -1,0 +1,143 @@
+.main{
+  width: 94%;
+  margin: 0% auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+.main span{
+  padding: 2%;
+  width: 50%;
+}
+.main .ankr{
+  padding: 4% 3% 2% 0%;
+  width: 50%;
+  text-align: end;
+
+}
+.main .ankr #Link{
+  text-decoration: none;
+  color: black;
+  margin: 0px 40px;
+  font-size: 20px;
+}
+/* //header ends here  */
+
+/* banner starts here */
+
+.Banner{
+  width: 90%;
+  height: inherit;
+  min-height: 50vh;
+  margin: 10px auto;
+  position: relative;
+}
+.Banner .image{
+  width: 95%;
+  height: inherit;
+  margin: 2px auto;
+}
+.Banner .image img{
+  width: 100%;
+  height: inherit;
+  border-radius: 20px;
+}
+.Banner .form{
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  width: 35%;
+  border-radius: 50px;
+  height: auto;
+  background-color: white;
+}
+.Banner form{
+  color: #7e7e7e;
+  font-size: 16px;
+  display: flex;
+}
+.Banner .form #Email{
+  width: 60%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background-color: transparent;
+}
+.Banner .form #subscribe{
+  width: 35%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: green;
+}
+
+/* .Banner end  */
+
+/* producct start  */
+.featured-categories {
+  text-align: center;
+  margin: 20px;
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.category-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  font-size: 1.1em;
+  margin: 0.5em 0;
+}
+
+.category-card p {
+  color: #777;
+}
+ 
+/* itm code start */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images img {
+  width: 30%;
+  border-radius: 5px;
+}
